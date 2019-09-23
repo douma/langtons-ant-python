@@ -1,4 +1,4 @@
-from .TurnDegree import TurnDegree
+from TurnDegree import TurnDegree
 
 class Ant(object):
     def __init__(self, position, turnDegree):
