@@ -1,3 +1,11 @@
+# Run
+
+```
+python src/Window.py
+```
+
+![](https://images.weserv.nl/?url=https://i.imgur.com/edh2P3z.png&w=400)
+
 # Install
 
 ```
@@ -14,11 +22,3 @@ python -m unittest tests/TurnDegreeTest.py
 python -m unittest tests/BoardTest.py
 python -m unittest tests/AntTest.py
 ```
-
-# Run
-
-```
-python src/Window.py
-```
-
-![](https://images.weserv.nl/?url=https://i.imgur.com/edh2P3z.png&w=400)
