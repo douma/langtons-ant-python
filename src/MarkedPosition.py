@@ -1,4 +1,4 @@
-from . import Position
+from .Position import Position
 
 class MarkedPosition():
     marked = False
@@ -7,5 +7,5 @@ class MarkedPosition():
         self.position = position
     def isMarked(self) -> bool:
         return self.marked
-    def position(self) -> Position:
+    def getPosition(self) -> Position:
         return self.position
