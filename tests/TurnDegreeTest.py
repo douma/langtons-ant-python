@@ -16,8 +16,8 @@ class TurnDegreeTest(unittest.TestCase):
 
     def test_add(self):
         degree = TurnDegree(0)
-        self.assertEquals("90", str(degree.add(TurnDegree(90))))
-        self.assertEquals("180", str(
+        self.assertEqual("90", str(degree.add(TurnDegree(90))))
+        self.assertEqual("180", str(
                 degree
                     .add(TurnDegree(90))
                     .add(TurnDegree(90))
@@ -30,7 +30,7 @@ class TurnDegreeTest(unittest.TestCase):
 
     def test_min(self):
         degree = TurnDegree(0)
-        self.assertEquals("270", str(degree.min(TurnDegree(90))))
+        self.assertEqual("270", str(degree.min(TurnDegree(90))))
         self.assertTrue(
             degree
                 .min(TurnDegree(90))
