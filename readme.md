@@ -11,4 +11,6 @@ pip install -r requirements.txt
 ```
 python -m unittest tests/PositionTest.py
 python -m unittest tests/TurnDegreeTest.py
+python -m unittest tests/BoardTest.py
+python -m unittest tests/AntTest.py
 ```
