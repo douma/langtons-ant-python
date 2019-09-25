@@ -1,4 +1,7 @@
-from TurnDegree import TurnDegree
+try:
+    from TurnDegree import TurnDegree
+except (ModuleNotFoundError, ImportError):
+    from .TurnDegree import TurnDegree
 
 class Ant(object):
     def __init__(self, position, turnDegree):

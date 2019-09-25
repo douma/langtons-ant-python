@@ -1,4 +1,7 @@
-from MarkedPosition import MarkedPosition
+try:
+    from MarkedPosition import MarkedPosition
+except (ModuleNotFoundError, ImportError):
+    from .MarkedPosition import MarkedPosition
 
 class Board(object):
     def __init__(self, ant, length:int):

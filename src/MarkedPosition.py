@@ -1,4 +1,7 @@
-from Position import Position
+try:
+    from Position import Position
+except (ModuleNotFoundError, ImportError):
+    from .Position import Position
 
 class MarkedPosition():
     marked = False
