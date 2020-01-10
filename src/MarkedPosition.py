@@ -4,7 +4,6 @@ except (ModuleNotFoundError, ImportError):
     from .Position import Position
 
 class MarkedPosition():
-    marked = False
     def __init__(self, marked: bool, position: Position):
         self.marked = marked
         self.position = position

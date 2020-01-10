@@ -1,5 +1,4 @@
 class TurnDegree(object):
-    degree:int = 0
     def __init__(self, degree: int):
         self.degree = degree
         validList = [0,90,180,270,360]
